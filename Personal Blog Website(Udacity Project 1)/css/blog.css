@@ -86,7 +86,7 @@ main .post-info {
 }
 
 main .author-info {
-    width: 100%;
+    width: 90%;
     height: auto;
     background-color: white;
     display: flex;
@@ -99,16 +99,13 @@ main .author-info p {
 
 main .author-info-text {
     width: 100%;
-    flex: 2;
-    padding-right: 5rem;
 }
 
 main .circle-frame {
     display: flex;
     width: 80%;
     border-radius: 50%;
-    padding: 10px 20px;
-    flex: 1;
+    padding: 10px 0px 10px 0px;
     padding-left: 5rem;
 }
 
@@ -184,13 +181,13 @@ main .post-content .post-title a {
 }
 
 .suggestion-card {
-    width: 30%;
-    min-width: 120px;
+    width: 50%;
+    min-width: 150px;
     height: auto;
 }
 
 .suggestion-card h6 {
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 
 .suggestion-card-img {
@@ -198,6 +195,9 @@ main .post-content .post-title a {
     height: 150px;
     object-fit: cover;
     padding-bottom: 10px;
+}
+figcaption{
+    float: right;
 }
 
 
